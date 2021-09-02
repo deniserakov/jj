@@ -1,0 +1,172 @@
+body {
+    font-family: 'Open-sans', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+p,div,input,button,form,span,a,ul,li{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-family: 'Monserat', sans-serif;
+}
+p{
+    line-height: 1.6em;
+}
+.conteiner{
+    width: 1170px;
+    margin: 0 auto;
+    color: white;
+}
+header{
+    /* background: #37cdd9; */background: linear-gradient(to right bottom, #4ebefe, #47b2f5, #41a6ec, #3c9be3, #388fd9);
+    padding-top: 65px;
+    padding-bottom: 135px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.offer{
+    margin-top: 110px;
+    width: 490px;
+}
+.title{
+    font-size: 22px;
+}
+.title span{
+    font-size: 30px;
+}
+.intro{
+    font-size: 10px;
+    margin-bottom: 45px;
+    margin-top: 60px;
+    width: 410px;
+}
+.btn{
+    background:#ffd429;
+    color: black;
+    display: block;
+    width: 225px;
+    height: 56px;
+    text-align: center;
+    padding: 18px 0 ;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.desktop{
+    margin-top: 30px;
+}
+.btn:hover{
+    background: #d8b529;
+}
+.main-taital{
+    margin-left: 400px;
+    color: black; 
+}
+.learn{
+    margin-top:105px ;
+    margin-bottom: 120px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 210px
+}
+.skil-title{
+    font-size: 18px;
+    color: black;
+    text-align: center
+}
+.skil-text{
+    font-size: 10px;
+    color: black;
+    margin-top: 7px;
+    text-align: center
+}
+.skil{
+    width: 205px;
+    background: url(../revers.png) no-repeat  top;
+    padding-top: 100px;
+}
+.ss{
+    background: url(../palm.png) no-repeat top; 
+}
+.sss{
+    background: url(../rocket.png) no-repeat  top; 
+}
+.mail{
+    background: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.future-ticket__btn{
+    border: 0;
+    cursor: pointer;
+    width: 340px;
+}
+
+.future-ticket__form {
+    width: 340px;
+    margin: 0 auto;
+    }
+    
+    .future-ticket__input {
+    min-width: 100%;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid #bfb8d1;
+    border-radius: 5px;
+    }
+    .mm{
+        margin-bottom:65px ;
+    }
+    .credits{
+        color: white;
+        padding-left: 400px;
+        font-size: 14px;
+    }
+    .footer{
+        background: #164d7a;
+        padding: 62px 0;
+    }
+    @media screen and (max-width: 1200px) {
+        .container {
+            width: 960px;
+        }
+    }
+    @media screen and (max-width: 992px){
+        .conteiner{
+            width: 720px;
+        }
+        .wrapper{
+            flex-direction: column;
+        }
+        .offer{
+            width: 100%;
+        }
+        .intro{
+            width: auto;
+        }
+    }
+    @media screen and (max-width: 768px){
+        .conteiner{
+            width: 540px;
+    
+        }
+    }
+    @media screen and (max-width: 576px){
+        .conteiner{
+            width: 90%;
+    
+        }
+    }
+ 
+        
+    
+ 
